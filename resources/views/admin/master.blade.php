@@ -679,8 +679,7 @@
                 <input type="checkbox" class="custom-control-input theme-choice" id="rtl-mode-switch" data-appStyle="{{asset('/')}}admin/assets/css/app-rtl.min.css" />
                 <label class="custom-control-label" for="rtl-mode-switch">RTL Mode</label>
             </div>
-
-
+            
         </div>
 
     </div> <!-- end slimscroll-menu-->
