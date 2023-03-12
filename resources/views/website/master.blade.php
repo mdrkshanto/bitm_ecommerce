@@ -1,0 +1,6 @@
+@include('website.includes.head')
+@include('website.includes.preloader')
+@include('website.includes.header.index')
+@yield('body')
+@include('website.includes.footer.index')
+@include('website.includes.foot')
