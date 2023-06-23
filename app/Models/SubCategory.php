@@ -15,42 +15,42 @@ class SubCategory extends Model
     {
         self::$image = $request->file('image');
         self::$imageExtension = self::$image->getClientOriginalExtension();
-        self::$imageName = time().'.'.self::$imageExtension;
+        self::$imageName = time() . '.' . self::$imageExtension;
         self::$directory = 'images/sub-category/';
         self::$image->move(self::$directory, self::$imageName);
-        self::$imageUrl = self::$directory.self::$imageName;
+        self::$imageUrl = self::$directory . self::$imageName;
         return self::$imageUrl;
     }
 
     protected static function create($request)
     {
         self::$subCategory = new SubCategory();
-        self::$subCategory->category_id    = $request->category_id;
-        self::$subCategory->name           = $request->name;
-        self::$subCategory->description    = $request->description;
-        self::$subCategory->image          = self::getImageUrl($request);
+        self::$subCategory->category_id = $request->category_id;
+        self::$subCategory->name = $request->name;
+        self::$subCategory->description = $request->description;
+        if ($request->file('image')) {
+            self::$subCategory->image = self::getImageUrl($request);
+        }
         self::$subCategory->save();
     }
 
     protected static function updateSubCategory($request, $id)
     {
         self::$subCategory = SubCategory::find($id);
-        if ($request->file('image'))
-        {
-            if(file_exists(self::$subCategory->image))
-            {
+        if ($request->file('image')) {
+            if (file_exists(self::$subCategory->image)) {
                 unlink(self::$subCategory->image);
             }
             self::$imageUrl = self::getImageUrl($request);
-        }else {
+        } else {
             self::$imageUrl = self::$subCategory->image;
         }
 
-        self::$subCategory->category_id    = $request->category_id;
-        self::$subCategory->name           = $request->name;
-        self::$subCategory->description    = $request->description;
-        self::$subCategory->image          = self::$imageUrl;
-        self::$subCategory->status         = $request->status;
+        self::$subCategory->category_id = $request->category_id;
+        self::$subCategory->name = $request->name;
+        self::$subCategory->description = $request->description;
+        self::$subCategory->image = self::$imageUrl;
+        self::$subCategory->status = $request->status;
         self::$subCategory->save();
     }
 
@@ -58,8 +58,7 @@ class SubCategory extends Model
     {
         self::$subCategory = SubCategory::find($id);
 
-        if (file_exists(self::$subCategory->image))
-        {
+        if (file_exists(self::$subCategory->image)) {
             unlink(self::$subCategory->image);
         }
         self::$subCategory->delete();

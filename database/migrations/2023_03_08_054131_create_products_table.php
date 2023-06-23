@@ -29,7 +29,7 @@ return new class extends Migration
             $table->integer('hit_count');
             $table->integer('sales_count');
             $table->string('featured_status');
-            $table->tinyInteger('status');
+            $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });
     }

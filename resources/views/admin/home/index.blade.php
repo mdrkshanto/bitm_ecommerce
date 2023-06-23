@@ -42,7 +42,8 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="avatar-md profile-user-wid mb-4">
-                                <img src="admin/assets/images/users/avatar-1.jpg" alt="" class="img-thumbnail rounded-circle">
+                                <img src="admin/assets/images/users/avatar-1.jpg" alt=""
+                                     class="img-thumbnail rounded-circle">
                             </div>
                             <h5 class="font-size-15 text-truncate">Henry Price</h5>
                             <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
@@ -62,7 +63,8 @@
                                     </div>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View Profile <i class="mdi mdi-arrow-right ml-1"></i></a>
+                                    <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View Profile <i
+                                            class="mdi mdi-arrow-right ml-1"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -76,10 +78,12 @@
                         <div class="col-sm-6">
                             <p class="text-muted">This month</p>
                             <h3>$34,252</h3>
-                            <p class="text-muted"><span class="text-success mr-2"> 12% <i class="mdi mdi-arrow-up"></i> </span> From previous period</p>
+                            <p class="text-muted"><span class="text-success mr-2"> 12% <i class="mdi mdi-arrow-up"></i> </span>
+                                From previous period</p>
 
                             <div class="mt-4">
-                                <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ml-1"></i></a>
+                                <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View More <i
+                                        class="mdi mdi-arrow-right ml-1"></i></a>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -187,15 +191,18 @@
                                                     </span>
                         </div>
                         <p class="font-16 text-muted mb-2"></p>
-                        <h5><a href="#" class="text-dark">Facebook - <span class="text-muted font-16">125 sales</span> </a></h5>
-                        <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
+                        <h5><a href="#" class="text-dark">Facebook - <span class="text-muted font-16">125 sales</span>
+                            </a></h5>
+                        <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                            venenatis faucibus tincidunt.</p>
                         <a href="#" class="text-primary font-16">Learn more <i class="mdi mdi-chevron-right"></i></a>
                     </div>
                     <div class="row mt-4">
                         <div class="col-4">
                             <div class="social-source text-center mt-3">
                                 <div class="avatar-xs mx-auto mb-3">
-                                                        <span class="avatar-title rounded-circle bg-primary font-size-16">
+                                                        <span
+                                                            class="avatar-title rounded-circle bg-primary font-size-16">
                                                                 <i class="mdi mdi-facebook text-white"></i>
                                                             </span>
                                 </div>
@@ -217,9 +224,9 @@
                         <div class="col-4">
                             <div class="social-source text-center mt-3">
                                 <div class="avatar-xs mx-auto mb-3">
-                                                        <span class="avatar-title rounded-circle bg-pink font-size-16">
-                                                                <i class="mdi mdi-instagram text-white"></i>
-                                                            </span>
+                                    <span class="avatar-title rounded-circle bg-pink font-size-16">
+                                        <i class="mdi mdi-instagram text-white"></i>
+                                    </span>
                                 </div>
                                 <h5 class="font-size-15">Instagram</h5>
                                 <p class="text-muted mb-0">104 sales</p>
@@ -241,7 +248,9 @@
                             </div>
                             <div class="media">
                                 <div class="mr-3">
-                                    <h5 class="font-size-14">22 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i></h5>
+                                    <h5 class="font-size-14">22 Nov <i
+                                            class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i>
+                                    </h5>
                                 </div>
                                 <div class="media-body">
                                     <div>
@@ -256,11 +265,14 @@
                             </div>
                             <div class="media">
                                 <div class="mr-3">
-                                    <h5 class="font-size-14">17 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i></h5>
+                                    <h5 class="font-size-14">17 Nov <i
+                                            class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i>
+                                    </h5>
                                 </div>
                                 <div class="media-body">
                                     <div>
-                                        Everyone realizes why a new common language would be desirable... <a href="#">Read more</a>
+                                        Everyone realizes why a new common language would be desirable... <a href="#">Read
+                                            more</a>
                                     </div>
                                 </div>
                             </div>
@@ -271,7 +283,9 @@
                             </div>
                             <div class="media">
                                 <div class="mr-3">
-                                    <h5 class="font-size-14">15 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i></h5>
+                                    <h5 class="font-size-14">15 Nov <i
+                                            class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i>
+                                    </h5>
                                 </div>
                                 <div class="media-body">
                                     <div>
@@ -286,7 +300,9 @@
                             </div>
                             <div class="media">
                                 <div class="mr-3">
-                                    <h5 class="font-size-14">12 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i></h5>
+                                    <h5 class="font-size-14">12 Nov <i
+                                            class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ml-2"></i>
+                                    </h5>
                                 </div>
                                 <div class="media-body">
                                     <div>
@@ -296,7 +312,8 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="text-center mt-4"><a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ml-1"></i></a></div>
+                    <div class="text-center mt-4"><a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View
+                            More <i class="mdi mdi-arrow-right ml-1"></i></a></div>
                 </div>
             </div>
         </div>
@@ -325,7 +342,9 @@
                                     <h5 class="mb-0">1,456</h5></td>
                                 <td>
                                     <div class="progress bg-transparent progress-sm">
-                                        <div class="progress-bar bg-primary rounded" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary rounded" role="progressbar"
+                                             style="width: 94%" aria-valuenow="94" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -338,7 +357,9 @@
                                 </td>
                                 <td>
                                     <div class="progress bg-transparent progress-sm">
-                                        <div class="progress-bar bg-success rounded" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-success rounded" role="progressbar"
+                                             style="width: 82%" aria-valuenow="82" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -351,7 +372,9 @@
                                 </td>
                                 <td>
                                     <div class="progress bg-transparent progress-sm">
-                                        <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-warning rounded" role="progressbar"
+                                             style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
                                     </div>
                                 </td>
                             </tr>
@@ -396,7 +419,7 @@
                                         <label class="custom-control-label" for="customCheck2">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2540</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2540</a></td>
                                 <td>Neal Matthews</td>
                                 <td>
                                     07 Oct, 2019
@@ -412,7 +435,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>
@@ -425,7 +450,7 @@
                                         <label class="custom-control-label" for="customCheck3">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2541</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2541</a></td>
                                 <td>Jamal Burnett</td>
                                 <td>
                                     07 Oct, 2019
@@ -441,7 +466,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>
@@ -454,7 +481,7 @@
                                         <label class="custom-control-label" for="customCheck4">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2542</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2542</a></td>
                                 <td>Juan Mitchell</td>
                                 <td>
                                     06 Oct, 2019
@@ -470,7 +497,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>
@@ -482,7 +511,7 @@
                                         <label class="custom-control-label" for="customCheck5">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2543</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2543</a></td>
                                 <td>Barry Dick</td>
                                 <td>
                                     05 Oct, 2019
@@ -498,7 +527,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>
@@ -510,7 +541,7 @@
                                         <label class="custom-control-label" for="customCheck6">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2544</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2544</a></td>
                                 <td>Ronald Taylor</td>
                                 <td>
                                     04 Oct, 2019
@@ -526,7 +557,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>
@@ -538,7 +571,7 @@
                                         <label class="custom-control-label" for="customCheck7">&nbsp;</label>
                                     </div>
                                 </td>
-                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2545</a> </td>
+                                <td><a href="javascript: void(0);" class="text-body font-weight-bold">#SK2545</a></td>
                                 <td>Jacob Hunter</td>
                                 <td>
                                     04 Oct, 2019
@@ -554,7 +587,9 @@
                                 </td>
                                 <td>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-toggle="modal" data-target=".exampleModal">
+                                    <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
+                                            data-toggle="modal" data-target=".exampleModal">
                                         View Details
                                     </button>
                                 </td>

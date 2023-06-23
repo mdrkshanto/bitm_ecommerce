@@ -40,7 +40,7 @@
                         <td class="align-middle">{{ $loop->iteration }}</td>
                         <td class="align-middle">{{ $brand->name }}</td>
                         <td class="align-middle">{{ $brand->description }}</td>
-                        <td class="align-middle"><img src="{{ asset($brand->image) }}" alt="{{ $brand->name }}" class="table-img"></td>
+                        <td class="align-middle">@if($brand->image) <img src="{{ asset($brand->image) }}" alt="{{ $brand->name }}" class="table-img"> @endif</td>
                         <td class="{{ $brand->status == 1 ? 'text-success' : 'text-danger' }} align-middle">{{ $brand->status == 1 ? 'Active' : 'Inactive' }}</td>
                         <td class="align-middle">
                             <div class="row justify-content-center">

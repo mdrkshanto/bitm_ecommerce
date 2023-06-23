@@ -42,7 +42,7 @@
                     <td class="align-middle">{{ $loop->iteration }}</td>
                     <td class="align-middle">{{ $category->name }}</td>
                     <td class="align-middle">{{ $category->description }}</td>
-                    <td class="align-middle"><img src="{{ asset($category->image) }}" alt="{{ $category->name }}" class="table-img"></td>
+                    <td class="align-middle">@if($category->image) <img src="{{ asset($category->image) }}" alt="{{ $category->name }}" class="table-img"> @endif</td>
                     <td class="{{ $category->status == 1 ? 'text-success' : 'text-danger' }} align-middle">{{ $category->status == 1 ? 'Active' : 'Inactive' }}</td>
                     <td class="align-middle">
                         <div class="container">

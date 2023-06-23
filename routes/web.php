@@ -64,4 +64,5 @@ Route::middleware([
     Route::post('/unit/delete/{id}', [UnitController::class, 'delete'])->name('unit.delete');
 
     Route::get('/product/add', [ProductController::class, 'create'])->name('product.add');
+    Route::post('/product/add', [ProductController::class, 'store'])->name('product.add');
 });

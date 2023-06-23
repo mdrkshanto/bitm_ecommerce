@@ -27,8 +27,8 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>Category Name</th>
                     <th>Name</th>
+                    <th>Category</th>
                     <th>Description</th>
                     <th>Image</th>
                     <th>Status</th>
@@ -41,10 +41,10 @@
                 @foreach($sub_categories as $sub_category)
                     <tr>
                         <td class="align-middle">{{ $loop->iteration }}</td>
-                        <td class="align-middle">{{ $sub_category->category->name }}</td>
                         <td class="align-middle">{{ $sub_category->name }}</td>
+                        <td class="align-middle">{{ $sub_category->category->name }}</td>
                         <td class="align-middle">{{ $sub_category->description }}</td>
-                        <td class="align-middle"><img src="{{ asset($sub_category->image) }}" alt="{{ $sub_category->name }}" class="table-img"></td>
+                        <td class="align-middle">@if($sub_category->image) <img src="{{ asset($sub_category->image) }}" alt="{{ $sub_category->name }}" class="table-img"> @endif</td>
                         <td class="{{ $sub_category->status == 1 ? 'text-success' : 'text-danger' }} align-middle">{{ $sub_category->status == 1 ? 'Active' : 'Inactive' }}</td>
                         <td class="align-middle">
                             <div class="container">
